@@ -1,6 +1,10 @@
 @media only screen and (max-device-width: 450px) {
+  .titlo-navegacao {
+    font-size: 46px;
+  }
+
   .hero-info-image {
-    width: 350px;
+    width: 320px;
   }
 
   .barra-navegacao {
