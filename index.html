@@ -4,6 +4,7 @@
     <head>
       <title>Heitor Nunes</title>
       <link rel="stylesheet" href="style.css" />
+      <script src="index.js"></script>
     </head>
   </head>
   <body>
@@ -13,10 +14,10 @@
           <div class="barra-navegacao">
             <h3 class="titulo-navegacao">Heitor Nunes</h3>
             <div>
-              <a class="links-navegacao"> Habilidades</a>
-              <a class="links-navegacao"> Portifólio</a>
+              <a onclick="onClickScrollTo('section-abilities')" class="links-navegacao"> Habilidades</a>
+              <a onclick="onClickScrollTo('section-porfolio')" class="links-navegacao"> Portifólio</a>
             </div>
-            <button>CONTATO</button>
+            <button onclick="onClickScrollTo ('section-contact')" >CONTATO</button>
           </div>
 
           <div class="hero-info">
@@ -29,7 +30,7 @@
                 Programador desde 2022, formado em ciência da computação em
                 2023, com foco em desenvovilmente web e back-end.
               </p>
-              <button>ENTRAR EM CONTATO</button>
+              <button onclick="onClickScrollTo ('section-contact')">ENTRAR EM CONTATO</button>
               <div class="hero-info-icons-container">
                 <a>
                   <img
@@ -56,7 +57,7 @@
             </div>
           </div>
         </section>
-        <section class="section-abilities">
+        <section class="section-abilities" id="section-abilities">
           <h2>Habilidades que</h2>
           <h2 class="verde">domino:</h2>
           <div class="ability-cards-container">
@@ -135,7 +136,7 @@
             </div>
           </div>
         </section>
-        <section class="section-porfolio">
+        <section class="section-porfolio" id="section-porfolio">
           <h2>Portifólio de</h2>
           <h2 class="verde">projetos</h2>
           <div class="section-porfolio-grid">
@@ -213,7 +214,7 @@
             </div>
           </div>
         </section>
-        <section class="section-contact">
+        <section class="section-contact" id="section-contact">
           <h2>Entre em</h2>
           <h2 class="verde">contato:</h2>
           <p>Estou à disposição para ajudar o seu projeto ou a sua empresa.</p>
