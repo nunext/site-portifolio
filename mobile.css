@@ -1,0 +1,39 @@
+@media only screen and (max-device-width: 450px) {
+  .hero-info-image {
+    width: 350px;
+  }
+
+  .barra-navegacao {
+    width: 100%;
+  }
+
+  .hero-info {
+    width: 100%;
+  }
+
+  .ability-cards-container {
+    grid-template-columns: auto;
+    row-gap: 36px;
+    margin-top: 12px;
+  }
+
+  .section-porfolio-grid {
+    grid-template-columns: auto;
+    row-gap: 36px;
+    margin-top: 12px;
+  }
+
+  .section-porfolio {
+    align-items: center;
+    width: 100%;
+  }
+
+  .content-container {
+    width: 94vw;
+    max-width: 94vw;
+  }
+
+  .footer-content {
+    width: 100%;
+  }
+}
