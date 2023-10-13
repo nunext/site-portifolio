@@ -140,9 +140,9 @@ footer {
 }
 
 .hero-info-image {
-  height: 400px;
-  width: 362px;
-  border-radius: 120px;
+  height: 380px;
+  width: 310px;
+  border-radius: 80px;
   border-color: rgb(0, 119, 255);
   border-width: 10px;
   border-style: solid;
